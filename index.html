@@ -15,12 +15,13 @@
       href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="sass/main.scss" />
 
     <title>Frontend Mentor | Easybank landing page</title>
   </head>
   <body>
-    <header class="header">
+    <header data-aos="fade-down" data-aos-duration="1200" class="header">
       <div class="overlay has-fade"></div>
 
       <nav class="container container--pall flex flex-jc-sb flex-ai-c">
@@ -55,16 +56,28 @@
 
     <section class="hero">
       <div class="container">
-        <div class="hero__image"></div>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1200"
+          class="hero__image"
+        ></div>
 
         <div class="hero__text container--pall">
-          <h1>Next generation digital banking!!!!</h1>
-          <p>
+          <h1 data-aos="fade-down" data-aos-duration="1000">
+            Next generation digital banking!!!!
+          </h1>
+          <p data-aos="fade-down" data-aos-duration="1100">
             Take your financial life online. Your Easybank account will be a
             one-stop-shop for spending, saving, budgeting, investing, and much
             more.
           </p>
-          <a href="#" class="button hero__cta">Request Invite</a>
+          <a
+            data-aos="fade-down"
+            data-aos-duration="1200"
+            href="#"
+            class="button hero__cta"
+            >Request Invite</a
+          >
         </div>
       </div>
     </section>
@@ -80,7 +93,12 @@
         </div>
 
         <div class="feature__grid">
-          <div class="feature__item">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+            class="feature__item"
+          >
             <div class="feature__icon">
               <img src="assets/icon-online.svg" />
             </div>
@@ -91,7 +109,12 @@
             </div>
           </div>
 
-          <div class="feature__item">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+            class="feature__item"
+          >
             <div class="feature__icon">
               <img src="assets/icon-budgeting.svg" />
             </div>
@@ -102,7 +125,12 @@
             </div>
           </div>
 
-          <div class="feature__item">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+            class="feature__item"
+          >
             <div class="feature__icon">
               <img src="assets/icon-onboarding.svg" />
             </div>
@@ -113,7 +141,12 @@
             </div>
           </div>
 
-          <div class="feature__item">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+            class="feature__item"
+          >
             <div class="feature__icon">
               <img src="assets/icon-api.svg" />
             </div>
@@ -131,7 +164,12 @@
       <div class="article__content container container--pall">
         <h2>Latest Articles</h2>
 
-        <div class="article__grid">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="100"
+          class="article__grid"
+        >
           <a href="#" class="article__item">
             <div
               class="article__image"
